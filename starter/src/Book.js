@@ -26,7 +26,7 @@ const Book = ({ book, setListBook, showSearchPage }) => {
         ></div>
         <div className="book-shelf-changer">
           <select defaultValue={book.shelf} onChange={onCategoryChange}>
-            <option value="none" disabled>
+            <option value="moveTo" disabled>
               Move to...
             </option>
             <option value="currentlyReading">Currently Reading</option>
